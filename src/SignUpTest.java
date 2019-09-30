@@ -22,9 +22,13 @@ public class SignUpTest extends BaseTest {
         sleep(5000);
         clickElement(MainPage.skip);
         waitForElement(MainPage.signUp);
+        clickElement(MainPage.currency);
+        waitForElement(MainPage.dollar);
+        clickElement(MainPage.dollar);
+        sleep(2000);
         clickElement(MainPage.signUp);
         clickElement(MainPage.register);
-        input(MainPage.emailField, "ssq1@gmail.com");
+        input(MainPage.emailField, "ssq3@gmail.com");
         clickElement(MainPage.next);
         waitForElement(MainPage.nameField);
         input(MainPage.nameField, "John Johnson");

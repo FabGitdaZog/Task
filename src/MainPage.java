@@ -1,4 +1,5 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.Select;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,4 +19,6 @@ public class MainPage {
     public static String next = "//*[@id=\"loginScreen\"]/div/div[2]/div[3]/div/div/form/ul[1]/li[2]/button";
     public static String passwordField = "#loginScreen > div > div.popHolder.loginRegister > div.loginRegisterRight > div > div > form > ul.singupSteps.activeStep > li:nth-child(4) > div > input";
     public static String submit = "//*[@id=\"loginScreen\"]/div/div[2]/div[4]/div/div/form/ul[2]/li[6]/button";
+    public static String currency = "//*[@id=\"header\"]/div[2]/div/div[6]";
+    public static String dollar = "//*[@id=\"header\"]/div[2]/div/div[6]/div/div/div[1]/span";
 }
